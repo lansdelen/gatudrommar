@@ -6,9 +6,10 @@
         <div class="fadehover">
 <a href="<?php bloginfo('url'); ?>"><img class="a" src="<?php bloginfo("template_url"); ?>/img/logo.png" alt="" /></a>
 <a href="<?php bloginfo('url'); ?>"><img class="b" src="<?php bloginfo("template_url"); ?>/img/logocolor.png" alt="" /></a>
-</div>
-<br /><br />        <?php bloginfo( 'description' ); ?>
+</div><p class="description">
+       <?php bloginfo( 'description' ); ?>
         </div>
+        </p><!--end descrition-->
         <div id="menu">
             <?php wp_nav_menu(); ?>
         </div><!--end menu-->

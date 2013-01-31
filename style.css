@@ -88,14 +88,18 @@ img.b {
 	padding-bottom:50px;
 }
 #menu ul ul{
-	display:none;
+	visibility:hidden;
 	z-index:999;
-	margin:32px 0 0 -10px;
+	margin:0px 0 0 -10px;
 	position: absolute;
 	background: #fff;
 	border:solid thin #e5e5e5;
-	width:160%;
-	min-width:150px;
+	width:150px;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  opacity:0;
 }
 #menu ul .sub-menu li {
 	z-index:999;
@@ -110,9 +114,15 @@ img.b {
 #menu ul .sub-menu li a {
 	font-size:0.8em;
 	padding:0 0 0 5px;
+	-webkit-transition: all 0.250s ease-in-out;
+	-moz-transition: all 0.250s ease-in-out;
+	-o-transition: all 0.250s ease-in-out;
+	transition: all 0.250s ease-in-out;
 }
 #menu li:hover > ul{
-	display:block;
+	visibility:visible;
+	opacity:1;
+		margin:32px 0 0 -10px;
 }
 #menu li ul li{
 	display: block;
@@ -787,7 +797,7 @@ header {
 	}
 	#menu {
 	    border-top:solid thin #e5e5e5;
-		padding:20px 0 0px 0;
+		padding:20px 0 0 0;
 		margin:0;
 		text-align:center;
 		clear:both;
@@ -799,15 +809,16 @@ header {
 	#menu li {
 		text-align:center;
 		width:17%;
-		margin:0px 0 0px 0;
+		margin:0;
 		padding-bottom:40px;
 	}
 	#menu ul ul{
-	display:none;
 	z-index:999;
-	width:150px;
-	margin:22px 0 0 10%;
+	margin:0 0 0 10%;
 	padding-top:0px;
+	}
+	#menu li:hover > ul{
+	margin:22px 0 0 10%;
 	}
 	#menu li li {
 		text-align:left;
@@ -862,17 +873,21 @@ header {
 		float:none;
 		font-size:0.9em;
 	}
+	#menu {
+	}
 	#menu li {
 		margin:0;
 		padding:10px 0 10px 0;
 		width:100%;
 	}
 	#menu ul ul{
-	display:none;
 	z-index:999;
 	width:99.6%;
-	margin:10px 0 0 0;
+	margin:0 0 0 0;
 	padding-top:0px;
+	}
+	#menu li:hover > ul{
+	margin:10px 0 0 0;
 	}
 	#menu li li {
 		height:20px;
