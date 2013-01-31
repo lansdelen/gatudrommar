@@ -332,8 +332,18 @@ footer h2 {
 }
 /* =WordPress Core
 -------------------------------------------------------------- */
+size-thumbnail {
+	max-width:300px;
+	height:auto;
+	width:100%;
+}
 .size-medium {
 	max-width:300px;
+	height:auto;
+	width:100%;
+}
+.size-full {
+	max-width:700px;
 	height:auto;
 	width:100%;
 }
