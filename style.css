@@ -46,9 +46,11 @@ header {
 	margin:0 auto;
 }
 header p.description {
+	position:absolute;
 	letter-spacing:1px;
 	font-style:italic;
 	margin:30px 0 0 10px;
+	width:500px;
 }
 div.fadehover {
 	margin-top:24px;
@@ -842,9 +844,14 @@ header {
 	margin:0 auto;
 	padding-bottom:25px;
 	text-align:center;
+	height:69px;
 	}
 	header p.description {
-	margin:30px 0 0 -10px;
+	position:absolute;
+	letter-spacing:1px;
+	font-style:italic;
+	margin:30px 0 0 50px;
+	width:200px;
 	}
 	#header-logo img {
 		max-width:302px;
