@@ -989,76 +989,79 @@ header {
 	.startimg img {
 	height:auto;
 	max-height:150px;
-}
-.alignnone {
-    margin: 5px 0 20px 0;
-	clear:both;
-}
-
-.aligncenter,
-div.aligncenter {
-    display: block;
-    margin: 5px auto 5px auto;
-}
-
-.alignright {
-    float:none;
-    margin: 5px 0 20px 0;
-	clear:both;
-}
-
-.alignleft {
-    float: none;
-    margin: 5px 0 20px 0;
-	clear:both;
-}
-
-.aligncenter {
-    display: block;
-    margin: 5px auto 5px auto;
-}
-
-a img.alignright {
-    float:none;
-    margin: 5px 0 20px 0;
-	clear:both;
-}
-
-a img.alignnone {
-	clear:both;
-    margin: 5px 0 20px 0;
-}
-
-a img.alignleft {
-    float:none;
-    margin: 5px 0 20px 0;
-}
-
-a img.aligncenter {
-    display: block;
-    margin-left: auto;
-    margin-right: auto
-}
-
-.wp-caption {
-    background: #fff;
-    border: 1px solid #f0f0f0;
-    max-width: 96%; /* Image does not overflow the content area */
-    padding: 5px 3px 10px;
-    text-align: center;
-}
-
-.wp-caption.alignnone {
-    margin: 5px 0 20px 0;
-}
-
-.wp-caption.alignleft {
-    margin: 5px 0 20px 0;
-}
-
-.wp-caption.alignright {
-    margin: 5px 0 20px 0;
-}
+	}
+	.alignnone {
+		margin: 5px 0 20px 0;
+		clear:both;
+	}
+	
+	.aligncenter,
+	div.aligncenter {
+		display: block;
+		margin: 5px auto 5px auto;
+	}
+	
+	.alignright {
+		float:none;
+		margin: 5px 0 20px 0;
+		clear:both;
+	}
+	
+	.alignleft {
+		float: none;
+		margin: 5px 0 20px 0;
+		clear:both;
+	}
+	
+	.aligncenter {
+		display: block;
+		margin: 5px auto 5px auto;
+	}
+	
+	a img.alignright {
+		float:none;
+		margin: 5px 0 20px 0;
+		clear:both;
+	}
+	
+	a img.alignnone {
+		clear:both;
+		margin: 5px 0 20px 0;
+	}
+	
+	a img.alignleft {
+		float:none;
+		margin: 5px 0 20px 0;
+	}
+	
+	a img.aligncenter {
+		display: block;
+		margin-left: auto;
+		margin-right: auto
+	}
+	
+	.wp-caption {
+		background: #fff;
+		border: 1px solid #f0f0f0;
+		max-width: 96%; /* Image does not overflow the content area */
+		padding: 5px 3px 10px;
+		text-align: center;
+	}
+	
+	.wp-caption.alignnone {
+		margin: 5px 0 20px 0;
+	}
+	
+	.wp-caption.alignleft {
+		margin: 5px 0 20px 0;
+	}
+	
+	.wp-caption.alignright {
+		margin: 5px 0 20px 0;
+	}
+	.pil {
+		display:none;
+	}
 
 }
 
