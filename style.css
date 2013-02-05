@@ -871,7 +871,7 @@ header {
 	}
 	#menu li {
 		text-align:center;
-		width:17%;
+		width:24%;
 		margin:0;
 		padding-bottom:40px;
 	}
@@ -925,7 +925,7 @@ header {
 		float:none;
 	}
 	header {
-	height:330px;
+	height:280px;
 	}
 	#sidebar {
 		clear:both;
